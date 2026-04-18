@@ -1,0 +1,5 @@
+# Environment Configuration
+FAST_REFRESH=true
+GENERATE_SOURCEMAP=false
+BROWSER=none
+SKIP_PREFLIGHT_CHECK=true
