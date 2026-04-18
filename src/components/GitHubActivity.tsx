@@ -23,7 +23,7 @@ import { Button } from "./ui/button";
 import { ExternalLink, Github, Star, GitFork, Users, Loader2 } from "lucide-react";
 
 export function GitHubActivity() {
-  const githubUsername = "Daddy-prim";
+  const githubUsername = "Prime-code2106";
   const githubUrl = `https://github.com/${githubUsername}`;
 
   // State for GitHub data
@@ -261,6 +261,13 @@ export function GitHubActivity() {
               loading="lazy"
             />
             
+            <img
+              src={`https://github-readme-streak-stats.herokuapp.com/?user=${githubUsername}&theme=dark&hide_border=true&background=0d1117&ring=3b82f6&fire=3b82f6&currStreakNum=ffffff`}
+              alt="GitHub Streak"
+              className="w-full rounded-lg"
+              loading="lazy"
+            />
+
             <img
               src={`https://github-readme-stats.vercel.app/api/top-langs/?username=${githubUsername}&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=ffffff&text_color=9ca3af`}
               alt="Top Languages"
