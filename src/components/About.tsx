@@ -85,7 +85,24 @@ export function About() {
               I ensure every project is fast, secure, and delivers an exceptional user experience for clients worldwide.
             </p>
           </div>
-v>
+
+          {/* GITHUB STREAK */}
+          <div className="mt-12 pt-8 border-t border-border/50">
+            <div className="text-center mb-6">
+              <h3 className="text-2xl font-bold">My GitHub Activity</h3>
+              <p className="text-muted-foreground mt-2">Daily open source contributions</p>
+            </div>
+            <div className="flex justify-center">
+              <a href="https://github.com/Prime-code2106" target="_blank" rel="noreferrer" className="block w-full max-w-2xl hover:scale-[1.01] transition-transform duration-300">
+                <img
+                  src="https://github-readme-streak-stats.herokuapp.com/?user=Prime-code2106&theme=dark&hide_border=true&background=transparent&ring=3b82f6&fire=3b82f6&currStreakNum=ffffff"
+                  alt="GitHub Streak Stats"
+                  className="w-full rounded-xl border object-contain bg-card shadow-sm"
+                  loading="lazy"
+                />
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
