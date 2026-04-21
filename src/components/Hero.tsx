@@ -47,7 +47,7 @@ export function Hero({ onNavigate }: HeroProps) {
    * CUSTOMIZATION: Replace with your actual Calendly link
    */
   const handleScheduleCall = () => {
-    window.open('https://calendly.com/adewale-samuel', '_blank');
+    window.open('https://calendar.app.google/s8HyT2Z4k7gFbaFL8', '_blank');
   };
 
   return (

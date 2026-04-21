@@ -308,7 +308,7 @@ export function WorkProcess({ onNavigate }: WorkProcessProps) {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 
               size="lg"
-              onClick={() => window.open('https://calendly.com/adewale-samuel', '_blank')}
+              onClick={() => window.open('https://calendar.app.google/s8HyT2Z4k7gFbaFL8', '_blank')}
             >
               Schedule Discovery Call
             </Button>

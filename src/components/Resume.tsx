@@ -84,7 +84,7 @@ export function Resume({ onNavigate }: ResumeProps) {
    * Opens scheduling tool for potential employers/clients
    */
   const handleScheduleCall = () => {
-    window.open('https://calendly.com/adewale-samuel', '_blank');
+    window.open('https://calendar.app.google/s8HyT2Z4k7gFbaFL8', '_blank');
   };
 
   return (

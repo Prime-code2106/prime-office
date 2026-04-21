@@ -141,7 +141,7 @@ export function Services() {
                   <Button 
                     size="sm" 
                     variant="outline"
-                    onClick={() => window.open('https://calendly.com/adewale-samuel', '_blank')}
+                    onClick={() => window.open('https://calendar.app.google/s8HyT2Z4k7gFbaFL8', '_blank')}
                   >
                     <ExternalLink className="h-4 w-4 mr-2" />
                     Schedule Call

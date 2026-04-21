@@ -303,7 +303,7 @@ export function Testimonials() {
                 Get Started Today
               </Button>
             </a>
-            <a href="https://calendly.com/adewale-samuel" target="_blank" rel="noopener noreferrer">
+            <a href="https://calendar.app.google/s8HyT2Z4k7gFbaFL8" target="_blank" rel="noopener noreferrer">
               <Button variant="outline" size="lg">
                 Schedule a Call
               </Button>

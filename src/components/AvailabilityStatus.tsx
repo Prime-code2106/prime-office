@@ -167,7 +167,7 @@ export function AvailabilityStatus() {
         <div className="space-y-2 pt-2">
           <Button
             className="w-full"
-            onClick={() => window.open('https://calendly.com/adewale-samuel', '_blank')}
+            onClick={() => window.open('https://calendar.app.google/s8HyT2Z4k7gFbaFL8', '_blank')}
             disabled={availability.status === 'booked'}
           >
             <Calendar className="h-4 w-4 mr-2" />

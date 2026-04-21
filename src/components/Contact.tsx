@@ -265,7 +265,7 @@ export function Contact() {
                       variant="outline" 
                       size="sm" 
                       className="w-full justify-start"
-                      onClick={() => window.open('https://calendly.com/adewale-samuel', '_blank')}
+                      onClick={() => window.open('https://calendar.app.google/s8HyT2Z4k7gFbaFL8', '_blank')}
                     >
                       📅 Schedule a Call
                     </Button>

@@ -283,7 +283,7 @@ export function Skills({ onNavigate }: SkillsProps) {
                 </Button>
                 <Button 
                   variant="outline"
-                  onClick={() => window.open('https://calendly.com/adewale-samuel', '_blank')}
+                  onClick={() => window.open('https://calendar.app.google/s8HyT2Z4k7gFbaFL8', '_blank')}
                   size="lg"
                 >
                   Schedule a Call
