@@ -21,9 +21,9 @@ export const resumeData = {
     location: "Akure, Ondo State, Nigeria (Available Worldwide)",
     email: "primesameade@gmail.com",
     phone: "+234 903 411 042",
-    website: "https://adewale-samuel.vercel.app",
+    website: "https://prime-office.netlify.app",
     linkedin: "https://www.linkedin.com/in/adewale-samuel-b8915b395?utm_source=share_via&utm_content=profile&utm_medium=member_android",
-    github: "https://github.com/Daddy-prim",
+    github: "https://github.com/Prime-code2106",
     summary: "Dynamic Information Technology student at FUTA and a specialized Frontend Engineer with a proven track record in building scalable, high-performance Web Applications. Expert in the React ecosystem, Tailwind CSS, and Supabase, with a deep focus on integrating Generative AI (Gemini, ChatGPT) to create intuitive, next-generation user experiences. Passionate about leveraging AI-driven development to solve complex problems and deliver premium digital products."
   },
 

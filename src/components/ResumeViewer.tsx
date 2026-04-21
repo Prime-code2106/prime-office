@@ -92,19 +92,12 @@ export function ResumeViewer({ onNavigate }: ResumeViewerProps) {
           
           <div className="flex gap-2 flex-wrap">
             <Button 
-              onClick={() => window.open('/resume/', '_blank')}
+              onClick={() => window.open('https://prime-office.netlify.app/resume/', '_blank')}
               className="flex items-center gap-2"
               variant="outline"
             >
               <Eye className="h-4 w-4" />
               View PDF
-            </Button>
-            <Button 
-              onClick={handleDownloadResume}
-              className="flex items-center gap-2"
-            >
-              <Download className="h-4 w-4" />
-              Download PDF
             </Button>
             <PDFResumeGenerator
               personalInfo={personalInfo}
@@ -316,14 +309,6 @@ export function ResumeViewer({ onNavigate }: ResumeViewerProps) {
                   size="lg"
                 >
                   Email Me
-                </Button>
-                <Button 
-                  variant="outline"
-                  onClick={handleDownloadResume}
-                  size="lg"
-                >
-                  <Download className="h-4 w-4 mr-2" />
-                  Download PDF
                 </Button>
               </div>
             </div>
