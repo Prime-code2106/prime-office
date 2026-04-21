@@ -71,8 +71,8 @@ export function Contact() {
     {
       name: "Twitter",
       icon: <Twitter className="h-5 w-5" />,
-      url: "https://twitter.com/prime_dev", // TODO: Replace with actual Twitter
-      handle: "@prime_dev"
+      url: "https://x.com/dewalesamue",
+      handle: "@dewalesamue"
     }
   ];
 

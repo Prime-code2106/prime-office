@@ -37,7 +37,7 @@ export function SEOHead({
   url = "https://adewale-samuel.vercel.app", // 👈 CHANGE TO YOUR DOMAIN
   type = "website",
   author = "Adewale Samuel",
-  twitterHandle = "@adewale_prime" // 👈 CHANGE TO YOUR TWITTER
+  twitterHandle = "@dewalesamue"
 }: SEOHeadProps) {
   
   useEffect(() => {
