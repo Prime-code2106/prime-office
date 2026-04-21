@@ -36,7 +36,7 @@ export function Footer() {
     {
       name: "GitHub",
       icon: <Github className="h-4 w-4" />,
-      url: "https://github.com/Daddy-prim"
+      url: "https://github.com/Prime-code2106"
     }
   ];
 

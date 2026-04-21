@@ -106,7 +106,7 @@ export function SEOHead({
       "image": image,
       "sameAs": [
         "https://www.linkedin.com/in/adewale-samuel-b8915b395?utm_source=share_via&utm_content=profile&utm_medium=member_android",
-        "https://github.com/Daddy-prim"
+        "https://github.com/Prime-code2106"
       ],
       "knowsAbout": [
         "Frontend Engineering",

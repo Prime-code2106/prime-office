@@ -40,58 +40,54 @@ export function Portfolio({ onNavigate }: PortfolioProps) {
    * Categories: Web Development, Web Application, Interactive Projects
    */
   const portfolioItems = [
-    // --- WEB DEVELOPMENT PROJECTS ---
     {
       id: 1,
-      category: "Web Development",
-      title: "Prime E-Commerce Platform",
-      description: "A modern, responsive e-commerce platform integrated with Supabase for authentication and database management. Features real-time inventory and safe checkout.",
-      image: "https://images.unsplash.com/photo-1577333715735-8fcb0359d906?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlY29tbWVyY2UlMjB3ZWJzaXRlJTIwbW9ja3VwfGVufDF8fHx8MTc1ODY0MDU2M3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      category: "Personal Branding",
+      title: "Prime Office",
+      description: "A personal portfolio and branding website showcasing projects, skills, and contact information with a modern, professional design.",
+      image: "https://images.unsplash.com/photo-1649000808933-1f4aac7cad9a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwb3J0Zm9saW8lMjB3ZWJzaXRlJTIwZGVzaWdufGVufDF8fHx8MTc1ODU1NTQyMHww&ixlib=rb-4.1.0&q=80&w=1080",
       screenshots: [
-        "https://images.unsplash.com/photo-1577333715735-8fcb0359d906?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlY29tbWVyY2UlMjB3ZWJzaXRlJTIwbW9ja3VwfGVufDF8fHx8MTc1ODY0MDU2M3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-        "https://images.unsplash.com/photo-1563013544-824ae1b704d3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzaG9wcGluZyUyMGNhcnQlMjB3ZWJ|ZW58MXx8fHwxNzU4NjQ0NDE3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+        "https://images.unsplash.com/photo-1649000808933-1f4aac7cad9a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwb3J0Zm9saW8lMjB3ZWJzaXRlJTIwZGVzaWdufGVufDF8fHx8MTc1ODU1NTQyMHww&ixlib=rb-4.1.0&q=80&w=1080"
       ],
-      tags: ["React", "Tailwind", "Supabase", "Auth"],
-      technologies: ["React", "Tailwind", "Supabase", "Auth"],
+      tags: ["React", "Tailwind CSS", "Vite"],
+      technologies: ["React", "Tailwind CSS", "Vite"],
       featured: true,
-      githubUrl: "https://github.com/Daddy-prim/ecommerce-platform",
-      liveUrl: "https://vercel.com",
+      githubUrl: "https://github.com/Prime-code2106/prime-office.git",
+      liveUrl: "https://prime-office-smoky.vercel.app",
       demoType: "web" as const,
       isInteractive: true
     },
-    // --- WEB APPLICATION PROJECTS ---
     {
       id: 2,
-      category: "Web Application", 
-      title: "SaaS Analytics Dashboard",
-      description: "A comprehensive administrative dashboard for SaaS businesses, featuring real-time data visualization with Recharts and Supabase state management.",
-      image: "https://images.unsplash.com/photo-1551288049-bbbda536339a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkYXNoYm9hcmQlMjB3ZWIlMjBhcHBsaWNhdGlvbnxlbnwxfHx8fDE3NTg2NjgyMTB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      category: "Web Application",
+      title: "Adefood",
+      description: "A 24/7 food subscription service delivering healthy, organic meals with access to 5,000+ recipes, meal plans (vegetarian, vegan, keto), cooking instructions, and video tutorials.",
+      image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
       screenshots: [
-        "https://images.unsplash.com/photo-1551288049-bbbda536339a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkYXNoYm9hcmQlMjB3ZWIlMjBhcHBsaWNhdGlvbnxlbnwxfHx8fDE3NTg2NjgyMTB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+        "https://images.unsplash.com/photo-1504674900247-0877df9cc836?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
       ],
-      tags: ["React", "Tailwind", "Recharts", "Supabase"],
-      technologies: ["React", "Tailwind", "Recharts", "Supabase"],
+      tags: ["React", "Tailwind CSS", "Food API"],
+      technologies: ["React", "Tailwind CSS", "Food API"],
       featured: true,
-      githubUrl: "https://github.com/Daddy-prim/saas-dashboard",
-      liveUrl: "https://vercel.com",
+      githubUrl: "https://github.com/Prime-code2106/adefood.git",
+      liveUrl: "https://adefood.netlify.app",
       demoType: "web" as const,
       isInteractive: true
     },
-    // --- INTERACTIVE PROJECTS ---
     {
       id: 3,
-      category: "Interative Projects", 
-      title: "TaskPulse Task Manager",
-      description: "A web-based task management tool designed for teams, focusing on real-time task updates and collaboration using Supabase Realtime.",
-      image: "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0YXNrJTIwbWFuYWdlbWVudHxlbnwxfHx8fDE3NTg2NjgyMTB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      category: "EdTech",
+      title: "FUTA Campus LearnHub",
+      description: "An online learning platform built for FUTA students, providing course materials, resources, and collaborative tools to enhance campus education.",
+      image: "https://images.unsplash.com/photo-1501504905252-473c47e087f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
       screenshots: [
-        "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0YXNrJTIwbWFuYWdlbWVudHxlbnwxfHx8fDE3NTg2NjgyMTB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+        "https://images.unsplash.com/photo-1501504905252-473c47e087f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
       ],
-      tags: ["React", "Supabase Realtime", "Tailwind CSS"],
-      technologies: ["React", "Supabase Realtime", "Tailwind CSS"],
+      tags: ["React", "Tailwind CSS", "Education"],
+      technologies: ["React", "Tailwind CSS", "Education"],
       featured: false,
-      githubUrl: "https://github.com/Daddy-prim/taskpulse",
-      liveUrl: "https://vercel.com",
+      githubUrl: "",
+      liveUrl: "https://futacampuslearnhub.netlify.app",
       demoType: "web" as const,
       isInteractive: true
     }

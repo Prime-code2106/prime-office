@@ -54,43 +54,43 @@ export function Testimonials() {
       role: "CEO",
       company: "TechCorp Solutions",
       image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&h=200&fit=crop",
-      text: "Adewale delivered an exceptional e-commerce platform that exceeded our expectations. His attention to detail and technical expertise transformed our vision into reality. The project was completed ahead of schedule with outstanding quality.",
+      text: "Adewale delivered an outstanding portfolio website that perfectly captured our brand identity. His attention to detail and technical expertise transformed our vision into reality. The project was completed ahead of schedule with outstanding quality.",
       rating: 5,
-      project: "Prime E-Commerce Platform",
+      project: "Prime Office",
       date: "January 2024"
     },
     {
       id: 2,
       name: "Michael Chen",
       role: "Product Manager",
-      company: "Productivity Inc",
+      company: "FoodTech Inc",
       image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop",
-      text: "Working with Prime was a game-changer for our web platform development. His expertise in React and Supabase helped us build a robust, scalable solution. Highly professional and communicative throughout the entire process.",
+      text: "Working with Prime on Adefood was a game-changer. His expertise in React and modern frontend tooling helped us build a beautiful, fast food subscription platform. Highly professional and communicative throughout the entire process.",
       rating: 5,
-      project: "TaskMaster Web Pro",
-      date: "February 2024"
+      project: "Adefood",
+      date: "March 2024"
     },
     {
       id: 3,
-      name: "Lisa Anderson",
-      role: "Marketing Director",
-      company: "Restaurant Chain",
+      name: "Dr. Amaka Osei",
+      role: "Head of E-Learning",
+      company: "FUTA",
       image: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=200&h=200&fit=crop",
-      text: "The web ordering system has revolutionized our customer experience. Adewale's attention to UI/UX details and seamless Supabase integration made the transition smooth. Our orders increased by 40% in the first month!",
+      text: "The FUTA Campus LearnHub has transformed how our students access learning materials. Adewale's attention to UX and performance made the platform a joy to use. Student engagement has increased significantly since launch!",
       rating: 5,
-      project: "FoodieOrder Web",
-      date: "March 2024"
+      project: "FUTA Campus LearnHub",
+      date: "April 2024"
     },
     {
       id: 4,
       name: "James Wilson",
-      role: "Head of Customer Support",
-      company: "SupportHub Inc",
+      role: "Clinical Training Lead",
+      company: "MedAssist",
       image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&h=200&fit=crop",
-      text: "The customer support system Adewale developed has been a game-changer for our business. The intuitive interface and powerful features made our team's workflow significantly more efficient. Outstanding technical skills and great communication!",
+      text: "The MedAssist AI platform Adewale built has been invaluable for our clinical training program. The AI integration is seamless and the interface is intuitive for medical professionals. Outstanding technical skills and great communication!",
       rating: 5,
-      project: "Customer Support Dashboard",
-      date: "February 2024"
+      project: "MedAssist AI",
+      date: "May 2024"
     }
   ];
 

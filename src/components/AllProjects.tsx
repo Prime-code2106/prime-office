@@ -32,35 +32,28 @@ export function AllProjects({ onNavigate }: AllProjectsProps) {
    */
   const categories = [
     { id: 'all', name: 'All Projects', count: 6 },
-    { id: 'web-dev', name: 'Web Development', count: 3 },
-    { id: 'web-app', name: 'Web Applications', count: 3 }
+    { id: 'web-dev', name: 'Web Development', count: 2 },
+    { id: 'web-app', name: 'Web Applications', count: 3 },
+    { id: 'edtech', name: 'EdTech', count: 1 }
   ];
 
-  /**
-   * ALL PROJECTS DATA WITH LIVE VIEW SUPPORT
-   * CUSTOMIZATION: Replace with your actual projects
-   * Update project names, descriptions, images, technologies, and links
-   * Add screenshots arrays for better project showcase
-   * Set isInteractive to true for projects with interactive demos
-   */
   const allProjects = [
     {
       id: 1,
       category: 'web-dev',
-      title: "Prime E-Commerce Platform",
-      subtitle: "Full-Stack E-commerce Solution",
-      description: "A modern, scalable e-commerce platform built with React and Supabase. Features include inventory management, real-time updates, and an integrated admin dashboard.",
-      image: "https://images.unsplash.com/photo-1577333715735-8fcb0359d906?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlY29tbWVyY2UlMjB3ZWJzaXRlJTIwbW9ja3VwfGVufDF8fHx8MTc1ODY0MDU2M3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      technologies: ["React", "Supabase", "Tailwind CSS", "Auth"],
-      duration: "3 months",
+      title: "Prime Office",
+      subtitle: "Personal Portfolio & Branding",
+      description: "A personal portfolio and branding website showcasing projects, skills, and contact information with a modern, professional design.",
+      image: "https://images.unsplash.com/photo-1649000808933-1f4aac7cad9a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      technologies: ["React", "Tailwind CSS", "Vite"],
+      duration: "1 month",
       client: "Personal Project",
       featured: true,
-      githubUrl: "https://github.com/Daddy-prim/ecommerce-platform",
-      liveUrl: "https://vercel.com",
-      completedDate: "2024-01-15",
+      githubUrl: "https://github.com/Prime-code2106/prime-office.git",
+      liveUrl: "https://prime-office-smoky.vercel.app",
+      completedDate: "2024-01-01",
       screenshots: [
-        "https://images.unsplash.com/photo-1577333715735-8fcb0359d906?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlY29tbWVyY2UlMjB3ZWJzaXRlJTIwbW9ja3VwfGVufDF8fHx8MTc1ODY0MDU2M3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-        "https://images.unsplash.com/photo-1563013544-824ae1b704d3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzaG9wcGluZyUyMGNhcnQlMjB3ZWJ8ZW58MXx8fHwxNzU4NjQ0NDE3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+        "https://images.unsplash.com/photo-1649000808933-1f4aac7cad9a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
       ],
       demoType: "web" as const,
       isInteractive: true
@@ -68,51 +61,100 @@ export function AllProjects({ onNavigate }: AllProjectsProps) {
     {
       id: 2,
       category: 'web-app',
-      title: "SaaS Analytics Dashboard",
-      subtitle: "Data Visualization Platform",
-      description: "A comprehensive administrative dashboard for SaaS businesses, featuring real-time data visualization with Recharts and Supabase state management.",
-      image: "https://images.unsplash.com/photo-1551288049-bbbda536339a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkYXNoYm9hcmQlMjB3ZWIlMjBhcHBsaWNhdGlvbnxlbnwxfHx8fDE3NTg2NjgyMTB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      technologies: ["React", "Tailwind CSS", "Recharts", "Supabase"],
-      duration: "2.5 months",
-      client: "Internal Tool",
+      title: "Adefood",
+      subtitle: "Food Subscription Service",
+      description: "A 24/7 food subscription service delivering healthy, organic meals with access to 5,000+ recipes, meal plans (vegetarian, vegan, keto), cooking instructions, and video tutorials.",
+      image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      technologies: ["React", "Tailwind CSS", "Food API"],
+      duration: "2 months",
+      client: "Personal Project",
       featured: true,
-      githubUrl: "https://github.com/Daddy-prim/saas-dashboard",
-      liveUrl: "https://vercel.com",
-      completedDate: "2024-02-28",
+      githubUrl: "https://github.com/Prime-code2106/adefood.git",
+      liveUrl: "https://adefood.netlify.app",
+      completedDate: "2024-03-01",
+      screenshots: [
+        "https://images.unsplash.com/photo-1504674900247-0877df9cc836?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+      ],
       demoType: "web" as const,
       isInteractive: true
     },
     {
       id: 3,
-      category: 'web-dev',
-      title: "Prime Portfolio Website",
-      subtitle: "Personal Portfolio & Brand",
-      description: "This very website! A modern portfolio showcasing my Frontend Engineering skills, built with React, Tailwind CSS, and optimized for performance.",
-      image: "https://images.unsplash.com/photo-1649000808933-1f4aac7cad9a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwb3J0Zm9saW8lMjB3ZWJzaXRlJTIwZGVzaWdufGVufDF8fHx8MTc1ODU1NTQyMHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      technologies: ["React", "Tailwind CSS", "Vite", "Lucide Icons"],
-      duration: "1 month",
+      category: 'edtech',
+      title: "FUTA Campus LearnHub",
+      subtitle: "Online Learning Platform",
+      description: "An online learning platform built for FUTA students, providing course materials, resources, and collaborative tools to enhance campus education.",
+      image: "https://images.unsplash.com/photo-1501504905252-473c47e087f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      technologies: ["React", "Tailwind CSS", "Education"],
+      duration: "2 months",
       client: "Personal Project",
       featured: false,
-      githubUrl: "https://github.com/Daddy-prim/portfolio",
-      liveUrl: "https://vercel.com",
+      githubUrl: "",
+      liveUrl: "https://futacampuslearnhub.netlify.app",
       completedDate: "2024-04-01",
+      screenshots: [
+        "https://images.unsplash.com/photo-1501504905252-473c47e087f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+      ],
       demoType: "web" as const,
       isInteractive: true
     },
     {
       id: 4,
       category: 'web-app',
-      title: "TaskPulse Task Manager",
-      subtitle: "Team Collaboration Web App",
-      description: "A web-based task management tool designed for teams, focusing on real-time task updates and collaboration using Supabase Realtime.",
-      image: "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0YXNrJTIwbWFuYWdlbWVudHxlbnwxfHx8fDE3NTg2NjgyMTB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      technologies: ["React", "Supabase Realtime", "Tailwind CSS"],
-      duration: "2 months",
-      client: "Open Source",
+      title: "MedAssist AI",
+      subtitle: "Clinical Training Simulator",
+      description: "A clinical training simulator and medical assistance platform powered by AI, designed to help medical students and professionals practice and improve their diagnostic skills.",
+      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      technologies: ["React", "AI Integration", "Tailwind CSS"],
+      duration: "3 months",
+      client: "Personal Project",
+      featured: true,
+      githubUrl: "",
+      liveUrl: "https://med-assis.netlify.app",
+      completedDate: "2024-05-01",
+      screenshots: [
+        "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+      ],
+      demoType: "web" as const,
+      isInteractive: true
+    },
+    {
+      id: 5,
+      category: 'web-dev',
+      title: "My Coffee",
+      subtitle: "Premium Coffee Experience",
+      description: "A premium coffee experience website for a coffee brand, featuring menu showcase, ordering flow, and brand storytelling with a rich visual design.",
+      image: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      technologies: ["React", "Tailwind CSS", "Vite"],
+      duration: "1 month",
+      client: "Personal Project",
       featured: false,
-      githubUrl: "https://github.com/Daddy-prim/taskpulse",
-      liveUrl: "https://vercel.com",
-      completedDate: "2024-03-10",
+      githubUrl: "",
+      liveUrl: "https://my-cofe.netlify.app",
+      completedDate: "2024-06-01",
+      screenshots: [
+        "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+      ],
+      demoType: "web" as const,
+      isInteractive: true
+    },
+    {
+      id: 6,
+      category: 'web-app',
+      title: "FUTA Map",
+      subtitle: "Interactive Campus Navigation",
+      description: "An interactive campus navigation map for Federal University of Technology Akure (FUTA), helping students and visitors find buildings, facilities, and points of interest on campus.",
+      image: "https://images.unsplash.com/photo-1524661135-423995f22d0b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      technologies: ["React", "Leaflet / Maps", "Tailwind CSS"],
+      duration: "2 months",
+      client: "Personal Project",
+      featured: false,
+      githubUrl: "",
+      liveUrl: "https://futamap.netlify.app",
+      completedDate: "2024-07-01",
+      screenshots: [
+        "https://images.unsplash.com/photo-1524661135-423995f22d0b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+      ],
       demoType: "web" as const,
       isInteractive: true
     }

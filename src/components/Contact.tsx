@@ -65,8 +65,8 @@ export function Contact() {
     {
       name: "GitHub", 
       icon: <Github className="h-5 w-5" />,
-      url: "https://github.com/Daddy-prim", // TODO: Replace with actual GitHub
-      handle: "/Daddy-prim"
+      url: "https://github.com/Prime-code2106",
+      handle: "/Prime-code2106"
     },
     {
       name: "Twitter",
