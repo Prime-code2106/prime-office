@@ -44,7 +44,7 @@ export function AllProjects({ onNavigate }: AllProjectsProps) {
       title: "Prime Office",
       subtitle: "Personal Portfolio & Branding",
       description: "A personal portfolio and branding website showcasing projects, skills, and contact information with a modern, professional design.",
-      image: "https://images.unsplash.com/photo-1649000808933-1f4aac7cad9a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      image: "/images/myportfolio.jpg",
       technologies: ["React", "Tailwind CSS", "Vite"],
       duration: "1 month",
       client: "Personal Project",
@@ -53,7 +53,7 @@ export function AllProjects({ onNavigate }: AllProjectsProps) {
       liveUrl: "https://prime-office-smoky.vercel.app",
       completedDate: "2024-01-01",
       screenshots: [
-        "https://images.unsplash.com/photo-1649000808933-1f4aac7cad9a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+        "/images/myportfolio.jpg"
       ],
       demoType: "web" as const,
       isInteractive: true
@@ -64,7 +64,7 @@ export function AllProjects({ onNavigate }: AllProjectsProps) {
       title: "Adefood",
       subtitle: "Food Subscription Service",
       description: "A 24/7 food subscription service delivering healthy, organic meals with access to 5,000+ recipes, meal plans (vegetarian, vegan, keto), cooking instructions, and video tutorials.",
-      image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      image: "/images/adefood.jpg",
       technologies: ["React", "Tailwind CSS", "Food API"],
       duration: "2 months",
       client: "Personal Project",
@@ -73,7 +73,7 @@ export function AllProjects({ onNavigate }: AllProjectsProps) {
       liveUrl: "https://adefood.netlify.app",
       completedDate: "2024-03-01",
       screenshots: [
-        "https://images.unsplash.com/photo-1504674900247-0877df9cc836?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+        "/images/adefood.jpg"
       ],
       demoType: "web" as const,
       isInteractive: true
@@ -84,7 +84,7 @@ export function AllProjects({ onNavigate }: AllProjectsProps) {
       title: "FUTA Campus LearnHub",
       subtitle: "Online Learning Platform",
       description: "An online learning platform built for FUTA students, providing course materials, resources, and collaborative tools to enhance campus education.",
-      image: "https://images.unsplash.com/photo-1501504905252-473c47e087f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      image: "/images/Futalearnhub.jpg",
       technologies: ["React", "Tailwind CSS", "Education"],
       duration: "2 months",
       client: "Personal Project",
@@ -93,7 +93,7 @@ export function AllProjects({ onNavigate }: AllProjectsProps) {
       liveUrl: "https://futacampuslearnhub.netlify.app",
       completedDate: "2024-04-01",
       screenshots: [
-        "https://images.unsplash.com/photo-1501504905252-473c47e087f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+        "/images/Futalearnhub.jpg"
       ],
       demoType: "web" as const,
       isInteractive: true
@@ -104,7 +104,7 @@ export function AllProjects({ onNavigate }: AllProjectsProps) {
       title: "MedAssist AI",
       subtitle: "Clinical Training Simulator",
       description: "A clinical training simulator and medical assistance platform powered by AI, designed to help medical students and professionals practice and improve their diagnostic skills.",
-      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      image: "/images/medai.jpg",
       technologies: ["React", "AI Integration", "Tailwind CSS"],
       duration: "3 months",
       client: "Personal Project",
@@ -113,7 +113,7 @@ export function AllProjects({ onNavigate }: AllProjectsProps) {
       liveUrl: "https://med-assis.netlify.app",
       completedDate: "2024-05-01",
       screenshots: [
-        "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+        "/images/medai.jpg"
       ],
       demoType: "web" as const,
       isInteractive: true
@@ -124,7 +124,7 @@ export function AllProjects({ onNavigate }: AllProjectsProps) {
       title: "My Coffee",
       subtitle: "Premium Coffee Experience",
       description: "A premium coffee experience website for a coffee brand, featuring menu showcase, ordering flow, and brand storytelling with a rich visual design.",
-      image: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      image: "/images/My coffe.jpg",
       technologies: ["React", "Tailwind CSS", "Vite"],
       duration: "1 month",
       client: "Personal Project",
@@ -133,7 +133,7 @@ export function AllProjects({ onNavigate }: AllProjectsProps) {
       liveUrl: "https://my-cofe.netlify.app",
       completedDate: "2024-06-01",
       screenshots: [
-        "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+        "/images/My coffe.jpg"
       ],
       demoType: "web" as const,
       isInteractive: true
@@ -144,7 +144,7 @@ export function AllProjects({ onNavigate }: AllProjectsProps) {
       title: "FUTA Map",
       subtitle: "Interactive Campus Navigation",
       description: "An interactive campus navigation map for Federal University of Technology Akure (FUTA), helping students and visitors find buildings, facilities, and points of interest on campus.",
-      image: "https://images.unsplash.com/photo-1524661135-423995f22d0b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      image: "/images/Futamap.jpg",
       technologies: ["React", "Leaflet / Maps", "Tailwind CSS"],
       duration: "2 months",
       client: "Personal Project",
@@ -153,7 +153,7 @@ export function AllProjects({ onNavigate }: AllProjectsProps) {
       liveUrl: "https://futamap.netlify.app",
       completedDate: "2024-07-01",
       screenshots: [
-        "https://images.unsplash.com/photo-1524661135-423995f22d0b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+        "/images/Futamap.jpg"
       ],
       demoType: "web" as const,
       isInteractive: true

@@ -45,9 +45,9 @@ export function Portfolio({ onNavigate }: PortfolioProps) {
       category: "Personal Branding",
       title: "Prime Office",
       description: "A personal portfolio and branding website showcasing projects, skills, and contact information with a modern, professional design.",
-      image: "https://images.unsplash.com/photo-1649000808933-1f4aac7cad9a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwb3J0Zm9saW8lMjB3ZWJzaXRlJTIwZGVzaWdufGVufDF8fHx8MTc1ODU1NTQyMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      image: "/images/myportfolio.jpg",
       screenshots: [
-        "https://images.unsplash.com/photo-1649000808933-1f4aac7cad9a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwb3J0Zm9saW8lMjB3ZWJzaXRlJTIwZGVzaWdufGVufDF8fHx8MTc1ODU1NTQyMHww&ixlib=rb-4.1.0&q=80&w=1080"
+        "/images/myportfolio.jpg"
       ],
       tags: ["React", "Tailwind CSS", "Vite"],
       technologies: ["React", "Tailwind CSS", "Vite"],
@@ -62,9 +62,9 @@ export function Portfolio({ onNavigate }: PortfolioProps) {
       category: "Web Application",
       title: "Adefood",
       description: "A 24/7 food subscription service delivering healthy, organic meals with access to 5,000+ recipes, meal plans (vegetarian, vegan, keto), cooking instructions, and video tutorials.",
-      image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      image: "/images/adefood.jpg",
       screenshots: [
-        "https://images.unsplash.com/photo-1504674900247-0877df9cc836?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+        "/images/adefood.jpg"
       ],
       tags: ["React", "Tailwind CSS", "Food API"],
       technologies: ["React", "Tailwind CSS", "Food API"],
@@ -79,9 +79,9 @@ export function Portfolio({ onNavigate }: PortfolioProps) {
       category: "EdTech",
       title: "FUTA Campus LearnHub",
       description: "An online learning platform built for FUTA students, providing course materials, resources, and collaborative tools to enhance campus education.",
-      image: "https://images.unsplash.com/photo-1501504905252-473c47e087f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      image: "/images/Futalearnhub.jpg",
       screenshots: [
-        "https://images.unsplash.com/photo-1501504905252-473c47e087f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+        "/images/Futalearnhub.jpg"
       ],
       tags: ["React", "Tailwind CSS", "Education"],
       technologies: ["React", "Tailwind CSS", "Education"],
